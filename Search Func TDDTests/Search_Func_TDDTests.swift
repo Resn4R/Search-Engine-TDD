@@ -24,6 +24,11 @@ final class Search_Func_TDDTests: XCTestCase {
     func testReturnNamesIfMoreThan2Chars() {
         let sample = SearchEngine()
         
-        XCTAssertEqual(sample.search(for: "ome"), ["Rome"])
+        XCTAssertEqual(sample.search(for: "Va"), ["Valencia", "Vancouver"])
+    }
+    
+    func testCaseInsensitive() {
+        let sample = SearchEngine()
+        XCTAssertEqual(sample.search(for: "va"), ["Valencia", "Vancouver"])
     }
 }
