@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F85D4D72AEACA0400D29259 /* Search_Func_TDDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85D4D62AEACA0400D29259 /* Search_Func_TDDApp.swift */; };
+		4F85D4D92AEACA0400D29259 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85D4D82AEACA0400D29259 /* ContentView.swift */; };
+		4F85D4DB2AEACA0600D29259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F85D4DA2AEACA0600D29259 /* Assets.xcassets */; };
+		4F85D4DE2AEACA0600D29259 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F85D4DD2AEACA0600D29259 /* Preview Assets.xcassets */; };
+		4F85D4E82AEACA0600D29259 /* Search_Func_TDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85D4E72AEACA0600D29259 /* Search_Func_TDDTests.swift */; };
+		4F85D4F22AEACA0600D29259 /* Search_Func_TDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85D4F12AEACA0600D29259 /* Search_Func_TDDUITests.swift */; };
+		4F85D4F42AEACA0600D29259 /* Search_Func_TDDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85D4F32AEACA0600D29259 /* Search_Func_TDDUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F85D4E42AEACA0600D29259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F85D4CB2AEACA0400D29259 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F85D4D22AEACA0400D29259;
+			remoteInfo = "Search Func TDD";
+		};
+		4F85D4EE2AEACA0600D29259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F85D4CB2AEACA0400D29259 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F85D4D22AEACA0400D29259;
+			remoteInfo = "Search Func TDD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F85D4D32AEACA0400D29259 /* Search Func TDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Search Func TDD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F85D4D62AEACA0400D29259 /* Search_Func_TDDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_Func_TDDApp.swift; sourceTree = "<group>"; };
+		4F85D4D82AEACA0400D29259 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F85D4DA2AEACA0600D29259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F85D4DD2AEACA0600D29259 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F85D4E32AEACA0600D29259 /* Search Func TDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Search Func TDDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F85D4E72AEACA0600D29259 /* Search_Func_TDDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_Func_TDDTests.swift; sourceTree = "<group>"; };
+		4F85D4ED2AEACA0600D29259 /* Search Func TDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Search Func TDDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F85D4F12AEACA0600D29259 /* Search_Func_TDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_Func_TDDUITests.swift; sourceTree = "<group>"; };
+		4F85D4F32AEACA0600D29259 /* Search_Func_TDDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_Func_TDDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F85D4D02AEACA0400D29259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F85D4E02AEACA0600D29259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F85D4EA2AEACA0600D29259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F85D4CA2AEACA0400D29259 = {
+			isa = PBXGroup;
+			children = (
+				4F85D4D52AEACA0400D29259 /* Search Func TDD */,
+				4F85D4E62AEACA0600D29259 /* Search Func TDDTests */,
+				4F85D4F02AEACA0600D29259 /* Search Func TDDUITests */,
+				4F85D4D42AEACA0400D29259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F85D4D42AEACA0400D29259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F85D4D32AEACA0400D29259 /* Search Func TDD.app */,
+				4F85D4E32AEACA0600D29259 /* Search Func TDDTests.xctest */,
+				4F85D4ED2AEACA0600D29259 /* Search Func TDDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F85D4D52AEACA0400D29259 /* Search Func TDD */ = {
+			isa = PBXGroup;
+			children = (
+				4F85D4D62AEACA0400D29259 /* Search_Func_TDDApp.swift */,
+				4F85D4D82AEACA0400D29259 /* ContentView.swift */,
+				4F85D4DA2AEACA0600D29259 /* Assets.xcassets */,
+				4F85D4DC2AEACA0600D29259 /* Preview Content */,
+			);
+			path = "Search Func TDD";
+			sourceTree = "<group>";
+		};
+		4F85D4DC2AEACA0600D29259 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F85D4DD2AEACA0600D29259 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F85D4E62AEACA0600D29259 /* Search Func TDDTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F85D4E72AEACA0600D29259 /* Search_Func_TDDTests.swift */,
+			);
+			path = "Search Func TDDTests";
+			sourceTree = "<group>";
+		};
+		4F85D4F02AEACA0600D29259 /* Search Func TDDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F85D4F12AEACA0600D29259 /* Search_Func_TDDUITests.swift */,
+				4F85D4F32AEACA0600D29259 /* Search_Func_TDDUITestsLaunchTests.swift */,
+			);
+			path = "Search Func TDDUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F85D4D22AEACA0400D29259 /* Search Func TDD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F85D4F72AEACA0600D29259 /* Build configuration list for PBXNativeTarget "Search Func TDD" */;
+			buildPhases = (
+				4F85D4CF2AEACA0400D29259 /* Sources */,
+				4F85D4D02AEACA0400D29259 /* Frameworks */,
+				4F85D4D12AEACA0400D29259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Search Func TDD";
+			productName = "Search Func TDD";
+			productReference = 4F85D4D32AEACA0400D29259 /* Search Func TDD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F85D4E22AEACA0600D29259 /* Search Func TDDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F85D4FA2AEACA0600D29259 /* Build configuration list for PBXNativeTarget "Search Func TDDTests" */;
+			buildPhases = (
+				4F85D4DF2AEACA0600D29259 /* Sources */,
+				4F85D4E02AEACA0600D29259 /* Frameworks */,
+				4F85D4E12AEACA0600D29259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F85D4E52AEACA0600D29259 /* PBXTargetDependency */,
+			);
+			name = "Search Func TDDTests";
+			productName = "Search Func TDDTests";
+			productReference = 4F85D4E32AEACA0600D29259 /* Search Func TDDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F85D4EC2AEACA0600D29259 /* Search Func TDDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F85D4FD2AEACA0600D29259 /* Build configuration list for PBXNativeTarget "Search Func TDDUITests" */;
+			buildPhases = (
+				4F85D4E92AEACA0600D29259 /* Sources */,
+				4F85D4EA2AEACA0600D29259 /* Frameworks */,
+				4F85D4EB2AEACA0600D29259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F85D4EF2AEACA0600D29259 /* PBXTargetDependency */,
+			);
+			name = "Search Func TDDUITests";
+			productName = "Search Func TDDUITests";
+			productReference = 4F85D4ED2AEACA0600D29259 /* Search Func TDDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F85D4CB2AEACA0400D29259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4F85D4D22AEACA0400D29259 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					4F85D4E22AEACA0600D29259 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 4F85D4D22AEACA0400D29259;
+					};
+					4F85D4EC2AEACA0600D29259 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 4F85D4D22AEACA0400D29259;
+					};
+				};
+			};
+			buildConfigurationList = 4F85D4CE2AEACA0400D29259 /* Build configuration list for PBXProject "Search Func TDD" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F85D4CA2AEACA0400D29259;
+			productRefGroup = 4F85D4D42AEACA0400D29259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F85D4D22AEACA0400D29259 /* Search Func TDD */,
+				4F85D4E22AEACA0600D29259 /* Search Func TDDTests */,
+				4F85D4EC2AEACA0600D29259 /* Search Func TDDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F85D4D12AEACA0400D29259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F85D4DE2AEACA0600D29259 /* Preview Assets.xcassets in Resources */,
+				4F85D4DB2AEACA0600D29259 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F85D4E12AEACA0600D29259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F85D4EB2AEACA0600D29259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F85D4CF2AEACA0400D29259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F85D4D92AEACA0400D29259 /* ContentView.swift in Sources */,
+				4F85D4D72AEACA0400D29259 /* Search_Func_TDDApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F85D4DF2AEACA0600D29259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F85D4E82AEACA0600D29259 /* Search_Func_TDDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F85D4E92AEACA0600D29259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F85D4F22AEACA0600D29259 /* Search_Func_TDDUITests.swift in Sources */,
+				4F85D4F42AEACA0600D29259 /* Search_Func_TDDUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F85D4E52AEACA0600D29259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F85D4D22AEACA0400D29259 /* Search Func TDD */;
+			targetProxy = 4F85D4E42AEACA0600D29259 /* PBXContainerItemProxy */;
+		};
+		4F85D4EF2AEACA0600D29259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F85D4D22AEACA0400D29259 /* Search Func TDD */;
+			targetProxy = 4F85D4EE2AEACA0600D29259 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F85D4F52AEACA0600D29259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F85D4F62AEACA0600D29259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F85D4F82AEACA0600D29259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Search Func TDD/Preview Content\"";
+				DEVELOPMENT_TEAM = BQ55AJ4968;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "self.Search-Func-TDD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F85D4F92AEACA0600D29259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Search Func TDD/Preview Content\"";
+				DEVELOPMENT_TEAM = BQ55AJ4968;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "self.Search-Func-TDD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F85D4FB2AEACA0600D29259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ55AJ4968;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "self.Search-Func-TDDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Search Func TDD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Search Func TDD";
+			};
+			name = Debug;
+		};
+		4F85D4FC2AEACA0600D29259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ55AJ4968;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "self.Search-Func-TDDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Search Func TDD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Search Func TDD";
+			};
+			name = Release;
+		};
+		4F85D4FE2AEACA0600D29259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ55AJ4968;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "self.Search-Func-TDDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Search Func TDD";
+			};
+			name = Debug;
+		};
+		4F85D4FF2AEACA0600D29259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ55AJ4968;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "self.Search-Func-TDDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Search Func TDD";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F85D4CE2AEACA0400D29259 /* Build configuration list for PBXProject "Search Func TDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F85D4F52AEACA0600D29259 /* Debug */,
+				4F85D4F62AEACA0600D29259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F85D4F72AEACA0600D29259 /* Build configuration list for PBXNativeTarget "Search Func TDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F85D4F82AEACA0600D29259 /* Debug */,
+				4F85D4F92AEACA0600D29259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F85D4FA2AEACA0600D29259 /* Build configuration list for PBXNativeTarget "Search Func TDDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F85D4FB2AEACA0600D29259 /* Debug */,
+				4F85D4FC2AEACA0600D29259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F85D4FD2AEACA0600D29259 /* Build configuration list for PBXNativeTarget "Search Func TDDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F85D4FE2AEACA0600D29259 /* Debug */,
+				4F85D4FF2AEACA0600D29259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F85D4CB2AEACA0400D29259 /* Project object */;
+}
