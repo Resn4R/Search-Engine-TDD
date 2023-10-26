@@ -26,9 +26,15 @@ final class Search_Func_TDDTests: XCTestCase {
         
         XCTAssertEqual(sample.search(for: "Va"), ["Valencia", "Vancouver"])
     }
-    
+    //3. The search functionality should be case insensitive
     func testCaseInsensitive() {
         let sample = SearchEngine()
         XCTAssertEqual(sample.search(for: "va"), ["Valencia", "Vancouver"])
+    }
+    
+    //4. The search functionality should work also when the search text is just a part of a city name
+    func testReturnCitiesWithPartOfName() {
+        let sample = SearchEngine()
+        XCTAssertEqual(sample.search(for: "ape"), ["Budapest"])
     }
 }
