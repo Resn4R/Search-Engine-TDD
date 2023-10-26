@@ -11,10 +11,7 @@ import Foundation
 struct SearchEngine {
     
     func search(for input: String) -> [String] {
-        if input.count<2 {
-            return []
-        }
-        return []
+        input.count<2 ? [] : []
     }
     
 }
