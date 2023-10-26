@@ -14,6 +14,7 @@
 		4F85D4E82AEACA0600D29259 /* Search_Func_TDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85D4E72AEACA0600D29259 /* Search_Func_TDDTests.swift */; };
 		4F85D4F22AEACA0600D29259 /* Search_Func_TDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85D4F12AEACA0600D29259 /* Search_Func_TDDUITests.swift */; };
 		4F85D4F42AEACA0600D29259 /* Search_Func_TDDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85D4F32AEACA0600D29259 /* Search_Func_TDDUITestsLaunchTests.swift */; };
+		4F85D5012AEACAB200D29259 /* SearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85D5002AEACAB200D29259 /* SearchEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4F85D4ED2AEACA0600D29259 /* Search Func TDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Search Func TDDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F85D4F12AEACA0600D29259 /* Search_Func_TDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_Func_TDDUITests.swift; sourceTree = "<group>"; };
 		4F85D4F32AEACA0600D29259 /* Search_Func_TDDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_Func_TDDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4F85D5002AEACAB200D29259 /* SearchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				4F85D4D62AEACA0400D29259 /* Search_Func_TDDApp.swift */,
 				4F85D4D82AEACA0400D29259 /* ContentView.swift */,
+				4F85D5002AEACAB200D29259 /* SearchEngine.swift */,
 				4F85D4DA2AEACA0600D29259 /* Assets.xcassets */,
 				4F85D4DC2AEACA0600D29259 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F85D5012AEACAB200D29259 /* SearchEngine.swift in Sources */,
 				4F85D4D92AEACA0400D29259 /* ContentView.swift in Sources */,
 				4F85D4D72AEACA0400D29259 /* Search_Func_TDDApp.swift in Sources */,
 			);
@@ -435,7 +439,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "self.Search-Func-TDD";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.Lorem-Picsum";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -464,7 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "self.Search-Func-TDD";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.Lorem-Picsum";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -483,7 +487,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "self.Search-Func-TDDTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.Lorem-Picsum";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -503,7 +507,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "self.Search-Func-TDDTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.Lorem-Picsum";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -521,7 +525,7 @@
 				DEVELOPMENT_TEAM = BQ55AJ4968;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "self.Search-Func-TDDUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.Lorem-Picsum";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -539,7 +543,7 @@
 				DEVELOPMENT_TEAM = BQ55AJ4968;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "self.Search-Func-TDDUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.Lorem-Picsum";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
