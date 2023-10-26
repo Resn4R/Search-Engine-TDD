@@ -10,7 +10,7 @@ import XCTest
 
 final class Search_Func_TDDTests: XCTestCase {
     
-    let cities = ["Paris", "Budapest", "Skopje", "Rotterdam", "Valencia", "Vancouver", "Amsterdam", "Vienna", "Sydney", "New York City", "London", "Bangkok", "Hong Kong", "Dubai", "Rome", "Istanbul"]
+
     
     //1. If the search text is fewer than 2 characters, then should return no results. (It is an optimization feature of the search functionality.)
     func testReturnNoResultIfSearchIsLessThan2Chars() {
@@ -19,4 +19,11 @@ final class Search_Func_TDDTests: XCTestCase {
         XCTAssertEqual(sample.search(for: "a"), [])
     }
 
+   // 2. If the search text is equal to or more than 2 characters, then it should return all the city names starting with the exact search text.
+
+    func testReturnNamesIfMoreThan2Chars() {
+        let sample = SearchEngine()
+        
+        XCTAssertEqual(sample.search(for: "ome"), ["Rome"])
+    }
 }
