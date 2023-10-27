@@ -15,8 +15,12 @@ struct SearchEngine {
     func search(for input: String) -> [String] {
         guard input.count >= 2 else { return [] }
         
-        return cities.filter {
-            $0.lowercased().contains(input.lowercased())
+        if input.elementsEqual("*") {
+            return cities
+        } else {
+            return cities.filter {
+                $0.lowercased().contains(input.lowercased())
+            }
         }
     }
     

@@ -37,4 +37,11 @@ final class Search_Func_TDDTests: XCTestCase {
         let sample = SearchEngine()
         XCTAssertEqual(sample.search(for: "ape"), ["Budapest"])
     }
+    
+    //5. If the search text is a “*” (asterisk), then it should return all the city names.
+    func testReturnAllIfInputIsAsterisk() {
+        let sample = SearchEngine()
+        
+        XCTAssertEqual(sample.search(for: "*"), ["Paris", "Budapest", "Skopje", "Rotterdam", "Valencia", "Vancouver", "Amsterdam", "Vienna", "Sydney", "New York City", "London", "Bangkok", "Hong Kong", "Dubai", "Rome", "Istanbul"])
+    }
 }
